@@ -1,0 +1,3 @@
+<UX type="listItem" className="timeClockWidth">
+    <span className="fa fa-clock-o mt-1 pr-2" />{this.state.currentTime}
+</UX>

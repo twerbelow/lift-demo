@@ -1,0 +1,31 @@
+<UX type="listItem" className="ux-dropdown-nav-item">
+    <UX type="dropdown" id="langDropdown" labelText="{this.getLabelValue('language')}">
+        <a name="#" className="cursor-pointer" onClick="{(e) => {this.updateLangaugeInPage('en')}}">
+            English
+        </a>
+        <a name="#" className="cursor-pointer" onClick="{(e) => {this.updateLangaugeInPage('es')}}">
+            Español
+        </a>
+        <a name="#" className="cursor-pointer" onClick="{(e) => {this.updateLangaugeInPage('fr')}}">
+            Français
+        </a>
+        <a name="#" className="cursor-pointer" onClick="{(e) => {this.updateLangaugeInPage('it')}}">
+            Italiano
+        </a>
+        <a name="#" className="cursor-pointer" onClick="{(e) => {this.updateLangaugeInPage('hi')}}">
+            हिन्दी
+        </a>
+        <a name="#" className="cursor-pointer" onClick="{(e) => {this.updateLangaugeInPage('gu')}}">
+            ગુજરાતી
+        </a>
+        <a name="#" className="cursor-pointer" onClick="{(e) => {this.updateLangaugeInPage('ta')}}">
+            தமிழ்
+        </a>
+        <a name="#" className="cursor-pointer" onClick="{(e) => {this.updateLangaugeInPage('te')}}">
+            తెలుగు
+        </a>
+        <a name="#" className="cursor-pointer" onClick="{(e) => {this.updateLangaugeInPage('zh')}}">
+            中文
+        </a>
+    </UX>
+</UX>

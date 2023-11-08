@@ -1,0 +1,57 @@
+{
+	"name": "liftapp",
+	"description": "LIFT App",
+	"version": "1.0.0",
+	"private": true,
+	"prettier": "@d-lift/scripts/prettier-config",
+	"dependencies": {
+		"@d-lift/core": ">=4.0.0",
+		"@d-lift/scripts": ">=4.0.0",
+		"@d-lift/theme-nextgen360": ">=4.0.0",
+		"@d-lift/uxcomponents": ">=4.0.0",
+		"prop-types": "^15.7.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	},
+	"scripts": {
+		"start": "yarn lift-start dev",
+		"build": "yarn lift-start build",
+		"test": "yarn lift-start test",
+		"test-ui": "yarn lift-start test-ui",
+		"test-cov": "yarn lift-start test-cov",
+		"analyze": "yarn lift-start analyze",
+		"pretty": "yarn prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md,rt}\"",
+		"pre-commit": "yarn pretty",
+		"pre-push": "yarn pretty",
+		"upgrade": "yarn up '@d-lift/*' -i"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"majestic": {
+		"jestScriptPath": "./node_modules/@d-lift/scripts/scripts/test.js"
+	},
+	"browserslist": [
+		">0.2%",
+		"ie 11"
+	],
+	"repository": "http://elb-bitbucket-746777543.us-east-2.elb.amazonaws.com/scm/ux/uxtoolkit.git",
+	"author": "Deloitte Consulting LLC",
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"devDependencies": {
+		"@d-lift/cli": ">=4.0.0",
+		"@testing-library/dom": "^5.0.0",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"@types/jest": "^26.0.3",
+		"@wojtekmaj/enzyme-adapter-react-17": "^0.6.2",
+		"babel-polyfill": "^6.26.0",
+		"enzyme": "^3.11.0",
+		"eslint-config-react-app": "^5.2.0",
+		"lodash": "^4.17.11",
+		"prettier": "^2.3.2",
+		"react-app-polyfill": "^1.0.6"
+	},
+	"packageManager": "yarn@4.0.1"
+}

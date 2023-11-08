@@ -1,0 +1,13 @@
+{
+    "Home_title": "首页", 
+    "overviewSession": "要安排概述会议，请给我们发送电子邮件：usdlift@deloitte.com",
+    "flexible": "灵活而强大",
+    "devops": "支持开发者和云",   
+    "simple": "简单轻巧", 
+    "ada": "符合辅助功能（WCAG 2.0 AA）", 
+    "rapidDevelopment": "用于企业应用程序的快速开发和部署", 
+    "notConnected": "您尚未连接到互联网。", 
+    "frameworkDocs": "LIFT 构架 文件", 
+    "uxComponentDocs": "UX组件文档",
+    "LIFT_title": "轻量级集成框架和工具"
+}

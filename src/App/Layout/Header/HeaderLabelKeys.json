@@ -1,0 +1,74 @@
+{
+    "en": {
+        "learnMore": "Learn More",
+        "componentsDocs": "UX Component Docs",
+        "frameworkDocs": "LIFT Framework Docs",
+        "liftDemo": "LIFT Demo",
+        "language": "English",
+        "logout": "Logout"
+    },
+    "es": {
+        "learnMore": "Aprende más",
+        "componentsDocs": "UX Component documentación",
+        "frameworkDocs": "LIFT Framework documentación",
+        "liftDemo": "LIFT manifestación",
+        "language": "Español",
+        "logout": "Salir"
+    },
+    "zh": {
+        "learnMore": "了解更多", 
+        "componentsDocs": "UX组件文档", 
+        "frameworkDocs": "LIFT Framework 文档", 
+        "liftDemo": "LIFT 表现形式", 
+        "language": "中文",
+        "logout": "退出"   
+    },
+    "fr": {
+        "learnMore": "En savoir plus",
+        "componentsDocs": "UX Component Docs",
+        "frameworkDocs": "LIFT Framework Docs",
+        "liftDemo": "Démo LIFT",
+        "language": "Français",
+        "logout": "Déconnexion"     
+    },
+    "hi": {
+        "learnMore": "और अधिक जानें",
+        "componentsDocs": "UX घटक डॉक्स",
+        "frameworkDocs": "लिफ्ट फ्रेमवर्क डॉक्स",
+        "liftDemo": "लिफ्ट डेमो ",
+        "language": "हिन्दी",
+        "logout": "लॉग आउट"        
+    },
+    "gu": {
+        "learnMore": "વધુ શીખો",
+        "componentsDocs": "યુએક્સ કમ્પોનન્ટ ડોક્સ",
+        "frameworkDocs": "લિફ્ટ ફ્રેમવર્ક ડsક્સ",
+        "liftDemo": "લિફ્ટ ડેમો",
+        "language": "ગુજરાતી",
+        "logout": "લૉગ આઉટ"
+    },
+    "ta": {
+        "learnMore": "மேலும் அறிக",
+        "componentsDocs": "யுஎக்ஸ் உபகரண டாக்ஸ்",
+        "frameworkDocs": "LIFT Framework Docs",
+        "liftDemo": "லிஃப்ட் டெமோ",
+        "language": "தமிழ்",
+        "logout": "வெளியேறு"
+    },
+    "te": {
+        "learnMore": "ఇంకా నేర్చుకో",
+        "componentsDocs": "UX కాంపోనెంట్ డాక్స్",
+        "frameworkDocs": "లిఫ్ట్ ఫ్రేమ్‌వర్క్ డాక్స్",
+        "liftDemo": "లిఫ్ట్ డెమో",
+        "language": "తెలుగు",
+        "logout": "లాగౌట్"
+    },
+    "it": {
+        "learnMore": "Ulteriori informazioni",
+        "componentsDocs": "Documenti componente UX",
+        "frameworkDocs": "Documenti LIFT Framework",
+        "liftDemo": "Demo LIFT",
+        "language": "italiano",
+        "logout": "Disconnettersi"
+    }              
+}

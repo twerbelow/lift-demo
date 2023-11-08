@@ -1,0 +1,7 @@
+<UX type="page">
+    <UX type="list" iconKey="none">
+        <UXImport src="./NavItems/Documentation" />
+        <UXImport src="./NavItems/Locale" />
+        <UXImport src="./NavItems/Clock" />
+    </UX>
+</UX>

@@ -1,0 +1,12 @@
+<UX type="listItem" className="ux-dropdown-nav-item">
+    <UX type="dropdown" id="navbarDropdown" labelText="{this.getLabelValue('learnMore')}">
+        <a target="_blank" href="https://deloitte.github.io/LIFT-Component-Documentation">
+            {this.getLabelValue('componentsDocs')}
+        </a>
+        <a target="_blank" href="https://deloitte.github.io/LIFT-Documentation">
+            {this.getLabelValue('frameworkDocs')}
+        </a>
+        <div className="ux-dropdown-divider"></div>
+        <a target="_blank" href="https://deloitte.github.io/LiftApp">{this.getLabelValue('liftDemo')}</a>
+    </UX>
+</UX>

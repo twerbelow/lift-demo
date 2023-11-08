@@ -1,0 +1,14 @@
+{
+        "recommendations": [
+                "msjsdiag.debugger-for-chrome",
+                "deloittelift.liftext",
+                "idleberg.icon-fonts",
+                "oderwat.indent-rainbow",
+                "mrmlnc.vscode-json5",
+                "naumovs.node-modules-resolve",
+                "esbenp.prettier-vscode",
+                "rvest.vs-code-prettier-eslint",
+                "2gua.rainbow-brackets",
+                "voldemortensen.rainbow-tags"
+        ]
+}

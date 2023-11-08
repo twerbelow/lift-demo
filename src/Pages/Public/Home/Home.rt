@@ -1,0 +1,63 @@
+<UX type="page">
+    <UX type="group" flexGroup="true" flexAlign="center" flexDirection="column">
+        <UX
+            type="header"
+            header-size="2"
+            className="animated bounceInDown delay-2s"
+            labelKey="overviewSession"
+        />
+        <UX
+            id="liftLogo"
+            type="image"
+            ux-class="ux-img-height animated delay-1s tada"
+            alt="Lift Logo"
+            src="{Lift.getRelativeUrl('/icons/LIFT_deepblue.png')}"
+            adaLabelText="LIFT logo"
+        />
+        <UX type="header" header-size="1" className="text-center" labelKey="LIFT_title" />
+        <UX type="header" header-size="3" className="text-center" labelKey="rapidDevelopment" />
+        <UX type="group">
+            <UX type="section">
+                <UX
+                    type="icon"
+                    symbol="fa fa-2x fa-bolt"
+                    className="ux-w-100"
+                    labelKey="flexible"
+                />
+                <UX type="icon" symbol="fa fa-2x fa-cube" className="ux-w-100" labelKey="simple" />
+            </UX>
+            <UX type="section">
+                <UX
+                    type="icon"
+                    symbol="fa fa-2x fa-wheelchair"
+                    className="ux-w-100"
+                    labelKey="ada"
+                />
+                <UX type="icon" symbol="fa fa-2x fa-cog" className="ux-w-100" labelKey="devops" />
+            </UX>
+        </UX>
+        <Lift.Online>
+            <UX type="group" rowClass="mt-4 mb-5" flexGroup="true" flexJustify="center">
+                <a
+                    rel="noopener"
+                    rel="noreferrer"
+                    href="https://deloitte.github.io/LIFT-Component-Documentation"
+                    alt="link to UX component documentation"
+                >
+                    <UX type="button" mode="default" labelKey="uxComponentDocs" />
+                </a>
+                <a
+                    rel="noopener"
+                    rel="noreferrer"
+                    href="https://deloitte.github.io/LIFT-Documentation"
+                    alt="link to lift framework documentation"
+                >
+                    <UX type="button" mode="default" labelKey="frameworkDocs" />
+                </a>
+            </UX>
+        </Lift.Online>
+        <Lift.Offline>
+            <UX type="header" header-size="4" labelKey="notConnected" />
+        </Lift.Offline>
+    </UX>
+</UX>

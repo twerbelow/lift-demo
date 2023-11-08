@@ -1,0 +1,56 @@
+{
+    "AppType": "Default",
+    "BuildConfig": {
+        "BuildPath": "dist/lift",
+        "ContextRoot": "/",
+        "OptimizeCSS": true,
+        "SafelistCSSClasses": ["^lift-"],
+        "EnvPrefix": "APP",
+        "Chunks": {
+            "NodeModulesChunk": "default",
+            "chunks": "all",
+            "minSize": 0,
+            "maxSize": 0,
+            "minChunks": 1,
+            "maxAsyncRequests": 0,
+            "maxInitialRequests": 0
+        },
+        "IgnorePublicFilesAndFolders": ["appconfig.dev.js"]
+    },
+    "PageTitle": "LIFT App",
+    "AppLoadingText": "Loading Lift based Application",
+    "AppLoadingIcon": "/icons/LIFT_deepblue.png",
+    "PageTitleStrategy": "disable",
+    "PageMetaTags": {
+        "description": "NextGen LIFT",
+        "format-detection": "telephone=yes"
+    },
+    "AvailableOffline": true,
+    "ContentManager": true,
+    "ContentCache": true,
+    "AuthenticationType": "Default",
+    "RefrenceTableCache": true,
+    "AppLabelKeys": true,
+    "DisableBrowserHistoryTracking": false,
+    "ServiceWorker": {
+        "Disabled": false,
+        "Exclude": [],
+        "Include": [
+            "ios/**/*.{png,jpg,svg,html,js,css,json}",
+            "favicon/**/*.{png,jpg,svg,html,js,css,json}"
+        ],
+        "ExcludeDefaults": []
+    },
+    "Preload": {
+        "All": false
+    },
+    "SessionTimeout": {
+        "enabled": true,
+        "timerResetEvents": [],
+        "warning": {
+            "enabled": true,
+            "displayInSeconds": 10790
+        },
+        "timeoutInSeconds": 10800
+    }
+}
