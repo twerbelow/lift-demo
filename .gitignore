@@ -4,6 +4,11 @@
 # dependencies
 node_modules
 
+# ignore yarn dependencies directory other than yarn 2 release file
+/.yarn/*
+!/.yarn/releases
+!/.yarn/plugins
+
 # builds
 build
 coverage
