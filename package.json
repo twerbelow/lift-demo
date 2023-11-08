@@ -6,6 +6,7 @@
 	"prettier": "@d-lift/scripts/prettier-config",
 	"dependencies": {
 		"@d-lift/core": ">=4.0.0",
+		"@d-lift/datatable-export": "^1.0.9",
 		"@d-lift/scripts": ">=4.0.0",
 		"@d-lift/theme-nextgen360": ">=4.0.0",
 		"@d-lift/uxcomponents": ">=4.0.0",

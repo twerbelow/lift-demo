@@ -8,12 +8,14 @@ import SecureRouteConfigJson from '@/PrivateRouteConfig.json';
 import { Lift } from '@d-lift/core';
 import NextGen360 from '@d-lift/theme-nextgen360';
 import '@d-lift/theme-nextgen360/dist/styles/NextGen360.css';
+import DataTableExport from '@d-lift/datatable-export';
 
 const initializeLift = () => {
     //Lift Initialization
     Lift.setRouterFile(RouteConfigJson, SecureRouteConfigJson);
     Lift.Themes = NextGen360;
     Lift.AppConfig = global.appconfig;
+    Lift.InstallExtension(DataTableExport);
     //App rendering
     ReactDOM.render(<App />, document.getElementById('root'));
 };

@@ -70,6 +70,11 @@ const Demo = ({ UXPage }) => {
                 paginationShowTotal="true"
                 paginationSizePerPage="5"
                 striped={true}
+                enableCSVExport
+                enablePDFExport
+                enableXLSExport
+                enableDOCExport
+                exportFileName="MyCustomExports"
             />
         </Page>
     );
