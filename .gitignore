@@ -3,6 +3,8 @@
 
 # dependencies
 node_modules
+/.pnp
+.pnp.js
 
 # ignore yarn dependencies directory other than yarn 2 release file
 /.yarn/*
@@ -29,3 +31,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 yarn.lock
+**/.cache-loader
