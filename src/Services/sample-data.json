@@ -46,54 +46,5 @@
         "firstName": "Kevin",
         "lastName": "Malone",
         "likesDonuts": "Yes"
-    },
-
-    {
-        "id": 9,
-        "firstName": "Oscar",
-        "lastName": "Martinez",
-        "likesDonuts": "Yes"
-    },
-    {
-        "id": 10,
-        "firstName": "Erin",
-        "lastName": "Hannon",
-        "likesDonuts": "Yes"
-    },
-    {
-        "id": 11,
-        "firstName": "Ryan",
-        "lastName": "Howard",
-        "likesDonuts": "Yes"
-    },
-    {
-        "id": 12,
-        "firstName": "Stanley",
-        "lastName": "Hudson",
-        "likesDonuts": "Yes"
-    },
-    {
-        "id": 13,
-        "firstName": "Holly",
-        "lastName": "Flax",
-        "likesDonuts": "No"
-    },
-    {
-        "id": 14,
-        "firstName": "Toby",
-        "lastName": "Flenderson",
-        "likesDonuts": "No"
-    },
-    {
-        "id": 15,
-        "firstName": "Kelly",
-        "lastName": "Kapoor",
-        "likesDonuts": "Yes"
-    },
-    {
-        "id": 16,
-        "firstName": "Darryl",
-        "lastName": "Philbin",
-        "likesDonuts": "Yes"
     }
 ]

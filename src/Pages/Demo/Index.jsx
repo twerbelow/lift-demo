@@ -24,9 +24,9 @@ const Demo = ({ UXPage }) => {
     }, []);
 
     const handleSubmit = () => {
-        let currentUsers = users;
+        let currentUsers = [...users];
         currentUsers.unshift(user);
-        setUsers(currentUsers);
+        setUsers([...currentUsers]);
         setUser({});
     };
 
@@ -34,12 +34,14 @@ const Demo = ({ UXPage }) => {
         <Page>
             <Header header-size="3">Demo</Header>
             <Group>
-                <Textbox model="user.firstName" placeholder="First Name">
-                    First Name
-                </Textbox>
-                <Textbox model="user.lastName" placeholder="Last Name">
-                    Last Name
-                </Textbox>
+                <Textbox
+                    model="user.firstName"
+                    placeholder="First Name"
+                    labelKey="demo_first_name"></Textbox>
+                <Textbox
+                    model="user.lastName"
+                    placeholder="Last Name"
+                    labelKey="demo_last_name"></Textbox>
             </Group>
             <RadioGroup labelText="Do you like donuts?" model="user.likesDonuts">
                 <RadioButton name="donuts" text="Yes" value="Yes" />
@@ -61,7 +63,7 @@ const Demo = ({ UXPage }) => {
 
             <DataTable
                 col-data-keys="firstName,lastName,likesDonuts"
-                col-default-headers="First Name,Last Name,Likes Donuts"
+                colHeaderKeys="demo_first_name,demo_last_name,demo_like_donuts"
                 dataCollection="users"
                 emptymsg-key="Empty_message"
                 hover="false"
